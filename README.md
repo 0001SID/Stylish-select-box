@@ -6,7 +6,7 @@ A simple modern select box
 
 ### Extra Features
 1. You can make a select box without any label by just making the value of the options anything without 'Blank'
-```
+```html
 <option value="1st">1st Element</option>
 <option value="2nd">2nd Element</option>
 <option value="3rd">3rd Element</option>
@@ -15,7 +15,7 @@ A simple modern select box
 ![labelless select box](ss/screencapture2.png)
 
 2. You can make a select box with label by just making the value 'Blank' of the first option
-```
+```html
 <option value="Blank">Options</option>
 <option value="1st">1st Element</option>
 <option value="2nd">2nd Element</option>
