@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Styllish Select Box</title>
+</head>
+<body>
+    <div class="center">
+        <div class="new-select">
+            <select onchange="">
+                <option value="1st">1st Element</option>
+                <option value="2nd">2nd Element</option>
+                <option value="3rd">3rd Element</option>
+                <option value="4th">4th Element</option>
+            </select>
+        </div>
+
+        <div class="new-select mt-5">
+            <select onchange="">
+                <option value="Blank">Options</option>
+                <option value="1st">1st Element</option>
+                <option value="2nd">2nd Element</option>
+                <option value="3rd">3rd Element</option>
+                <option value="4th">4th Element</option>
+            </select>
+        </div>
+    </div>
+    <script src="js/select.js"></script>
+    <script>
+        window.load = function(){
+            selectBox();
+        }
+    </script>
+</body>
+</html>
