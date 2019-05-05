@@ -8,5 +8,5 @@ A simple modern select box
 1. You can make a select box with out any label by just making the value of the options anything without Blank
 ![labelless select box](ss/screencapture2.png)
 
-2. You can make a select box with label
+2. You can make a select box with label by just making the value 'Blank' of the first option
 ![select box with label](ss/screencapture3.png)
